@@ -1,0 +1,32 @@
+.nav-seccess {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 19px 125px 0 45px;
+}
+
+.nav-seccess-cotents {
+  display: flex;
+  align-items: center;
+  gap: 31.7px;
+}
+
+.nav-success-img {
+  width: 42.22px;
+  height: 40px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.nav-success-img:hover {
+  transform: scale(1.08);
+}
+
+.nav-success-heading {
+  font-family: "Public Sans";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  cursor: pointer;
+}

@@ -1,0 +1,86 @@
+.login-container {
+  background-color: #000;
+}
+
+.login-cotents {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #202020;
+  width: 387px;
+  height: 429px;
+  border-radius: 10px;
+}
+
+.login-logo {
+  width: 25px;
+  height: 25px;
+  background-color: transparent;
+  margin-top: 46px;
+}
+
+.login-heading {
+  font-family: "Public Sans";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  background-color: transparent;
+  margin: 27px 0 38px 0;
+}
+
+.inputs {
+  width: 275px;
+  height: 48px;
+  padding: 14px 41px 15px 21px;
+  border-radius: 1000px;
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  border-radius: 24px;
+  color: #fff;
+  margin-bottom: 20px;
+  font-family: "Public Sans";
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  outline: none;
+}
+
+.inputs::placeholder {
+  font-weight: 600;
+}
+
+.continue {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 275px;
+  height: 48px;
+  padding: 14px 40.96px 15px 41px;
+  border-radius: 24px;
+  background: #404040;
+  font-family: "Public Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  margin-bottom: 14px;
+  text-align: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.continue:hover {
+  transform: scale(1.08);
+}

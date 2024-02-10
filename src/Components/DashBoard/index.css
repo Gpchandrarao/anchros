@@ -1,0 +1,110 @@
+.disboard {
+  background-color: #000;
+  min-height: 100vh;
+}
+
+.disboard-container {
+  display: flex;
+  padding: 50px 0 0 121px;
+  gap: 74px;
+}
+
+.disboard-form-container {
+  margin-right: 76px;
+}
+
+.all-post {
+  width: 290px;
+  height: 57px;
+  padding: 17px 99px 16px 32px;
+  border-radius: 10px;
+  font-family: Public Sans;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  cursor: pointer;
+  margin-bottom: 17px;
+}
+
+.dashbord-btn {
+  border: 1px solid #ffffff80;
+  outline: none;
+  border-radius: 50%;
+  width: 290px;
+  height: 57px;
+  padding: 17px 102px 16px 42px;
+  border-radius: 10px;
+  background-color: transparent;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 84px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.dashbord-btn:hover {
+  transform: scale(1.02);
+}
+
+.dashbord-left-container {
+  background-color: #1a1a1a;
+  width: 523px;
+  min-height: 550px;
+  top: 185px;
+  left: 19px;
+  padding: 17px 19px 29px 32px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.dashbord-post-heading {
+  margin: 14px 19px 14px 0;
+}
+
+.dashbord-post {
+  /* background-color: #404040; */
+  background: #ffffff0d;
+
+  margin-bottom: 14px;
+  border-radius: 10px;
+  padding: 29px 0 29px 32px;
+  font-family: "Public Sans";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.comment-title {
+  font-family: "Public Sans";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff80;
+}
+
+.comment-container {
+  display: flex;
+  gap: 8px;
+  font-family: "Public Sans";
+
+  width: 169px;
+  margin-top: 10px;
+}
+
+.commet-count {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+}

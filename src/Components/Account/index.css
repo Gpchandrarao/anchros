@@ -1,0 +1,64 @@
+.account {
+  background-color: #000;
+}
+
+.account-cotents {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.account-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #202020;
+  width: 357px;
+  height: 309px;
+  border-radius: 10px;
+}
+
+.account-logo {
+  width: 25px;
+  height: 25px;
+  background-color: transparent;
+  margin-top: 46px;
+}
+
+.account-heading {
+  font-family: "Public Sans";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  background-color: transparent;
+  margin: 27px 0 38px 0;
+}
+
+.account-continue {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 275px;
+  height: 48px;
+  padding: 14px 40.96px 15px 41px;
+  border-radius: 24px;
+  background: #404040;
+  font-family: "Public Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  margin-bottom: 14px;
+  text-align: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.account-continue:hover {
+  transform: scale(1.08);
+}

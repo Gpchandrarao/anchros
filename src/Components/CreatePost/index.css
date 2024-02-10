@@ -1,0 +1,134 @@
+.createpost {
+  background-color: #000;
+  min-height: 100vh;
+}
+
+.createpost-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 106px;
+  gap: 76px;
+}
+
+.post-headings {
+  width: 290px;
+  height: 57px;
+  padding: 17px 99px 16px 32px;
+  border-radius: 10px;
+  font-family: Public Sans;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  cursor: pointer;
+  margin-bottom: 17px;
+  background: #ffffff0d;
+}
+
+.postbut {
+  border: 1px solid #ffffff80;
+  outline: none;
+  border-radius: 50%;
+  width: 290px;
+  height: 57px;
+  padding: 17px 102px 16px 42px;
+  border-radius: 10px;
+  background-color: transparent;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 84px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.postbut:hover {
+  transform: scale(1.08);
+}
+
+.post-submit {
+  height: 500px;
+  padding: 19px 0 0 19px;
+  background: #0d0d0d;
+  width: 554px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.post-submit-heading {
+  width: 151px;
+  height: 24px;
+  font-family: Public Sans;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.post-submit-input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.post-input {
+  width: 486px;
+  height: 58px;
+  padding: 17px 363px 17px 24px;
+  background: #ffffff0d;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  font-family: "Public Sans";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 23px;
+}
+
+.textarea {
+  width: 486px;
+  height: 160px;
+  padding: 17px 273px 119px 24px;
+  border-radius: 10px;
+  background: #ffffff0d;
+  outline: none;
+  border: none;
+  font-family: "Public Sans";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  overflow: hidden;
+  margin-bottom: 23px;
+}
+
+.post-submit-btn {
+  width: 290px;
+  height: 57px;
+  padding: 17px 88px 16px 88px;
+  border-radius: 10px;
+  background: #ffffff1a;
+  border: none;
+  outline: none;
+  font-family: Public Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.post-submit-btn:hover {
+  transform: scale(1.08);
+}

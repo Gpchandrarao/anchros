@@ -1,0 +1,32 @@
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 31.7px;
+  padding: 19px 0 0 45px;
+  background-color: #000;
+}
+
+.nav-img {
+  width: 42.22px;
+  height: 40px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.nav-img:hover {
+  transform: scale(1.08);
+}
+
+.nav-heading {
+  font-family: "Public Sans";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.nav-heading:hover {
+  transform: scale(1.08);
+}
